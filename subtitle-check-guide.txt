@@ -1,0 +1,32 @@
+SRT-Untertitel prüfen: drei konkrete Checks
+
+1. Zeitformat und Dauer
+SRT-Zeiten haben das Format HH:MM:SS,mmm. Die Endzeit muss nach der Startzeit
+liegen. Ein Eintrag mit gleicher Start- und Endzeit hat keine Anzeigedauer.
+
+2. Überschneidung
+In examples/overlap.srt endet Zeile1 bei3,000Sekunden und Zeile2 beginnt bei
+2,500Sekunden: eine halbe Sekunde Überlappung. examples/non-overlapping.srt
+zeigt eine mögliche Verschiebung. Dies ist ein synthetisches Beispiel;
+prüfe reale Untertitel immer an deinem Bild- und Tonmaterial.
+
+3. Lesegeschwindigkeit
+Teile die sichtbaren Zeichen durch die Anzeigedauer in Sekunden. Der kostenlose
+POOLR-Check markiert mehr als20Zeichen pro Sekunde als Hinweis. Das ist eine
+Heuristik; Zielgruppe, Sprache, Zeilenumbruch und Darstellung bleiben relevant.
+
+Jetzt prüfen, ohne Anmeldung oder Text-Upload:
+https://poolr-creator-preflight.robust-isle-8072.chatgpt.site/untertitel-pruefen
+
+Der kostenlose Check prüft bis zu60Untertitel/16000Zeichen. Er verändert keine
+Dateien, erkennt keine falschen Wörter und richtet nichts an einer Tonspur aus.
+
+Mehr als Untertitel prüfen? Das feste Clip-Plan-Beispiel zeigt Szenen und Exporte:
+https://poolr-creator-preflight.robust-isle-8072.chatgpt.site/demo
+
+Das optionale englische Creator Preflight Kit kostet19EUR einmalig, kein Abo.
+Kauf aktuell nur für Personen mit Wohnsitz in Deutschland. Produktumfang und
+Kaufbedingungen stehen am Storefront; das Kit ist nicht in diesem Repo enthalten.
+
+Diese Anleitung und die beiden eigenen Beispiele stehen unter der vorhandenen
+MIT-Lizenz des Demo-Repositories. Kein Kundenmaterial und keine fremden Vorlagen.
