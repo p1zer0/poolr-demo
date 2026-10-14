@@ -1,0 +1,57 @@
+{
+  "schema": "creator-preflight/v1",
+  "title": "POOLR · Beispielclip",
+  "budget": {
+    "model": "Eigene Materialien; keine Generierung ausgeführt",
+    "videoRate": null,
+    "videoAttempts": 1,
+    "imageRate": null,
+    "imageAttempts": 1,
+    "extraImages": 0,
+    "rateSource": "Keine externe API aufgerufen."
+  },
+  "checks": {
+    "hook": false,
+    "escalation": false,
+    "reveal": false,
+    "rights": false
+  },
+  "scenes": [
+    {
+      "id": "s1",
+      "start": 0,
+      "duration": 10,
+      "caption": "Eine gute Idee beginnt mit einem klaren Plan.",
+      "role": "hook",
+      "source": "owned",
+      "action": "Eigenes, freigegebenes Material für diese Szene auswählen.",
+      "prompt": "",
+      "generationSeconds": 10,
+      "imageCount": 1
+    },
+    {
+      "id": "s2",
+      "start": 10,
+      "duration": 11.25,
+      "caption": "Ordne deinen Text in Szenen und prüfe das Timing.",
+      "role": "escalation",
+      "source": "owned",
+      "action": "Eigenes, freigegebenes Material für diese Szene auswählen.",
+      "prompt": "",
+      "generationSeconds": 12,
+      "imageCount": 1
+    },
+    {
+      "id": "s3",
+      "start": 21.25,
+      "duration": 8.75,
+      "caption": "Nimm deinen Plan und die Untertitel mit.",
+      "role": "loop",
+      "source": "owned",
+      "action": "Eigenes, freigegebenes Material für diese Szene auswählen.",
+      "prompt": "",
+      "generationSeconds": 9,
+      "imageCount": 1
+    }
+  ]
+}
