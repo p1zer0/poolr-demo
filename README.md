@@ -1,14 +1,18 @@
-# POOLR — Text to clip plan and SRT
+# POOLR — Offline Subtitle Studio + Creator Preflight Kit
 
-[Try the interactive example without signing in](https://poolr-creator-preflight.robust-isle-8072.chatgpt.site/demo) · [Get the Creator Preflight Kit](https://poolr-creator-preflight.robust-isle-8072.chatgpt.site/)
+[Try the clip-plan example without signing in](https://poolr-creator-preflight.robust-isle-8072.chatgpt.site/demo) · [Get the Creator Preflight Kit](https://poolr-creator-preflight.robust-isle-8072.chatgpt.site/)
 
 A small, fixed three-scene example: select 15, 30 or 45 seconds, preview timed subtitles and download the example as JSON or SRT. Open index.html locally; no installation or API key is needed. Nothing is uploaded.
 
-The full Creator Preflight Kit lets you plan and edit your own projects offline, estimate costs using your own rates and export JSON/SRT. Three scene recipes are included. Online workflows and private preferences are an optional beta for verified kit buyers.
+The full Creator Preflight Kit includes the English **Offline Subtitle Studio**: import an existing SRT, preview captions against your local video, edit the text, apply a constant millisecond offset, and export SRT or WebVTT. Up to 2,000 captions / 500,000 characters. No upload, API key or automatic saving. Open subtitle-studio.html from your private download.
+
+[Try the free fixed-sample subtitle timing demo](https://poolr-creator-preflight.robust-isle-8072.chatgpt.site/subtitle-studio-demo). It demonstrates shifting and exporting three example captions; importing your own files is part of the paid offline tool.
+
+The included planning app also lets you plan and edit your own projects offline, estimate costs using your own rates and export JSON/SRT. Three scene recipes are included. Online workflows and private preferences are an optional beta for verified kit buyers.
 
 **19 EUR once, no subscription.** The kit is in English. Purchases are currently available to residents of Germany. The full kit is sold under its separate buyer license and is not included in this repository.
 
-This is planning and subtitle tooling, not video rendering or audio synchronization. No reach or income is promised.
+This is planning and subtitle tooling. The studio shifts timestamps by your chosen constant offset; it does not transcribe speech, automatically align to audio, correct variable drift or render video. No reach or income is promised.
 
 ## SRT-Untertitel kostenlos prüfen — ohne Upload
 
